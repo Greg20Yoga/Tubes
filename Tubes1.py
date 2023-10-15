@@ -21,18 +21,23 @@ if Screen == 1 :
             
 
         if h == "j" :
-            print("Skyland City Hotel Jatinangor")
-            print("Jatinangor Hotel by Apartemen Taman Melati")
-            print("Jatinangor National Golf & Resort")
-            print("Emaki Hotel Jatinangor")
-            print("Aminda Hotel Jatinangor")
-            print("RedDoorz near Jatinangor Town Square")
-            print("Puri Khatulistiwa")
-            print("La Fasa Syariah Hotel")
-            print("RedDoorz Plus near IPDN")
-            print("RedLiving Apartemen Easton Park Jatinangor Yunus")
-            Hotelj = input("")
+            Jhotel = ["Skyland City Hotel Jatinangor","Jatinangor Hotel by Apartemen Taman Melati","Jatinangor National Golf & Resort","Emaki Hotel Jatinangor","Aminda Hotel Jatinangor","RedDoorz near Jatinangor Town Square","Puri Khatulistiwa","La Fasa Syariah Hotel", "RedDoorz Plus near IPDN","RedLiving Apartemen Easton Park Jatinangor Yunus"]
+            print(f"1. {Jhotel[0]}")
+            print(f"2. {Jhotel[1]}")
+            print(f"3. {Jhotel[2]}")
+            print(f"4. {Jhotel[3]}")
+            print(f"5. {Jhotel[4]}")
+            print(f"6. {Jhotel[5]}")
+            print(f"7. {Jhotel[6]}")
+            print(f"8. {Jhotel[7]}")
+            print(f"9. {Jhotel[8]}")
+            print(f"10. {Jhotel[9]}")
+            hj = input("")
+            
+            
+            
         elif h == "b" :
+            Bhotel = ["The Gaia Hotel Bandung",]
             print("")    
             
     if (g == "c") :
