@@ -19,7 +19,7 @@ hotelbandung = [
 "Grand Dafan Braga Bandung (4 star)",
 "Kimaya Braga Bandung by Harris (4 star)",
 "Holiday Inn BANDUNG PASTEUR (4 star)",
-"Janévalla Bandung (4 star)"
+"JanÃ©vallaÂ BandungÂ (4 star)"
 ]
 hargahotelbandung = [
 "1974109",
@@ -49,7 +49,7 @@ hoteljatinangor = [
 "Jatinangor National Golf & Resort (3 star)",
 "Emaki Hotel Jatinangor (3 star)",
 "Aminda Hotel Jatinangor (3 star)",
-"RedLiving Apartemen Easton Park Jatinangor – Yunus (3 star)",
+"RedLiving Apartemen Easton Park Jatinangor â€“ YunusÂ (3 star)",
 "Puri Khatulistiwa (3 star)",
 "RedDoorz near Jatinangor Town Square (1 star)",
 "La Fasa Syariah Hotel (1 star)",
@@ -1313,7 +1313,7 @@ ka346 = [
 "20.58",
 "21.04"
 ]
-ListStasiun = [
+ListStasiunCP = [
 "CICALENGKA",
 "HAURPUGUR",
 "RANCAEKEK",
@@ -1328,7 +1328,22 @@ ListStasiun = [
 "GADOBANGKONG",
 "PADALARANG"
 ]
-Cicalengka = [
+ListStasiunPC = [
+"PADALARANG",
+"GADOBANGKONG",
+"CIMAHI",
+"CIMINDI",
+"CIROYOM",
+"BANDUNG",
+"CIKUDAPATEUH",
+"KIARACONDONG",
+"GEDEBAGE",
+"CIMEKAR",
+"RANCAEKEK",
+"HAURPUGUR",
+"CICALENGKA"
+]
+CicalengkaCP = [
 f"KA-371 {ka371[0]}",
 f"KA-361 {ka361[0]}",
 f"KA-351 {ka351[0]}",
@@ -1347,7 +1362,30 @@ f"KA-367 {ka367[0]}",
 f"KA-385 {ka385[0]}",
 f"KA-357 {ka357[0]}",
 f"KA-347 {ka347[0]}",
-f"KA-350 {ka350[0]}",
+f"KA-350 {ka350[0]}"
+]
+CicalengkaCPKA = [
+"KA-371",
+"KA-361",
+"KA-351",
+"KA-373",
+"KA-363",
+"KA-381",
+"KA-353",
+"KA-343",
+"KA-375",
+"KA-365",
+"KA-383",
+"KA-355",
+"KA-345",
+"KA-377",
+"KA-367",
+"KA-385",
+"KA-357",
+"KA-347",
+"KA-350"
+]
+CicalengkaPC = [
 f"KA-372 {ka372[0]}",
 f"KA-362 {ka362[0]}",
 f"KA-380 {ka380[0]}",
@@ -1364,7 +1402,7 @@ f"KA-384 {ka384[0]}",
 f"KA-356 {ka356[0]}",
 f"KA-346 {ka346[0]}"
 ]
-Haurpugur = [
+HaurpugurCP = [
 f"KA-371 {ka371[1]}",
 f"KA-361 {ka361[1]}",
 f"KA-351 {ka351[1]}",
@@ -1383,7 +1421,9 @@ f"KA-367 {ka367[1]}",
 f"KA-385 {ka385[1]}",
 f"KA-357 {ka357[1]}",
 f"KA-347 {ka347[1]}",
-f"KA-350 {ka350[1]}",
+f"KA-350 {ka350[1]}"
+]
+HaurpugurPC = [
 f"KA-372 {ka372[1]}",
 f"KA-362 {ka362[1]}",
 f"KA-380 {ka380[1]}",
@@ -1400,7 +1440,7 @@ f"KA-384 {ka384[1]}",
 f"KA-356 {ka356[1]}",
 f"KA-346 {ka346[1]}"
 ]
-Rancaekek = [
+RancaekekCP = [
 f"KA-371 {ka371[2]}",
 f"KA-361 {ka361[2]}",
 f"KA-351 {ka351[2]}",
@@ -1419,7 +1459,9 @@ f"KA-367 {ka367[2]}",
 f"KA-385 {ka385[2]}",
 f"KA-357 {ka357[2]}",
 f"KA-347 {ka347[2]}",
-f"KA-350 {ka350[2]}",
+f"KA-350 {ka350[2]}"
+]
+RancaekekPC = [
 f"KA-372 {ka372[2]}",
 f"KA-362 {ka362[2]}",
 f"KA-380 {ka380[2]}",
@@ -1436,7 +1478,7 @@ f"KA-384 {ka384[2]}",
 f"KA-356 {ka356[2]}",
 f"KA-346 {ka346[2]}"
 ]
-Cimekar = [
+CimekarCP = [
 f"KA-371 {ka371[3]}",
 f"KA-361 {ka361[3]}",
 f"KA-351 {ka351[3]}",
@@ -1455,7 +1497,9 @@ f"KA-367 {ka367[3]}",
 f"KA-385 {ka385[3]}",
 f"KA-357 {ka357[3]}",
 f"KA-347 {ka347[3]}",
-f"KA-350 {ka350[3]}",
+f"KA-350 {ka350[3]}"
+]
+CimekarPC = [
 f"KA-372 {ka372[3]}",
 f"KA-362 {ka362[3]}",
 f"KA-380 {ka380[3]}",
@@ -1472,7 +1516,7 @@ f"KA-384 {ka384[3]}",
 f"KA-356 {ka356[3]}",
 f"KA-346 {ka346[3]}"
 ]
-Gedebage = [
+GedebageCP = [
 f"KA-371 {ka371[4]}",
 f"KA-361 {ka361[4]}",
 f"KA-351 {ka351[4]}",
@@ -1491,7 +1535,9 @@ f"KA-367 {ka367[4]}",
 f"KA-385 {ka385[4]}",
 f"KA-357 {ka357[4]}",
 f"KA-347 {ka347[4]}",
-f"KA-350 {ka350[4]}",
+f"KA-350 {ka350[4]}"
+]
+GedebagePC = [
 f"KA-372 {ka372[4]}",
 f"KA-362 {ka362[4]}",
 f"KA-380 {ka380[4]}",
@@ -1508,7 +1554,7 @@ f"KA-384 {ka384[4]}",
 f"KA-356 {ka356[4]}",
 f"KA-346 {ka346[4]}"
 ]
-Kiaracondong = [
+KiaracondongCP = [
 f"KA-371 {ka371[5]}",
 f"KA-361 {ka361[5]}",
 f"KA-351 {ka351[5]}",
@@ -1527,7 +1573,9 @@ f"KA-367 {ka367[5]}",
 f"KA-385 {ka385[5]}",
 f"KA-357 {ka357[5]}",
 f"KA-347 {ka347[5]}",
-f"KA-350 {ka350[5]}",
+f"KA-350 {ka350[5]}"
+]
+KiaracondongPC = [
 f"KA-372 {ka372[5]}",
 f"KA-362 {ka362[5]}",
 f"KA-380 {ka380[5]}",
@@ -1544,7 +1592,7 @@ f"KA-384 {ka384[5]}",
 f"KA-356 {ka356[5]}",
 f"KA-346 {ka346[5]}"
 ]
-Cikudapateuh = [
+CikudapateuhCP = [
 f"KA-371 {ka371[6]}",
 f"KA-361 {ka361[6]}",
 f"KA-351 {ka351[6]}",
@@ -1563,7 +1611,9 @@ f"KA-367 {ka367[6]}",
 f"KA-385 {ka385[6]}",
 f"KA-357 {ka357[6]}",
 f"KA-347 {ka347[6]}",
-f"KA-350 {ka350[6]}",
+f"KA-350 {ka350[6]}"
+]
+CikudapateuhPC = [
 f"KA-372 {ka372[6]}",
 f"KA-362 {ka362[6]}",
 f"KA-380 {ka380[6]}",
@@ -1580,7 +1630,7 @@ f"KA-384 {ka384[6]}",
 f"KA-356 {ka356[6]}",
 f"KA-346 {ka346[6]}"
 ]
-Bandung = [
+BandungCP = [
 f"KA-371 {ka371[7]}",
 f"KA-361 {ka361[7]}",
 f"KA-351 {ka351[7]}",
@@ -1599,7 +1649,9 @@ f"KA-367 {ka367[7]}",
 f"KA-385 {ka385[7]}",
 f"KA-357 {ka357[7]}",
 f"KA-347 {ka347[7]}",
-f"KA-350 {ka350[7]}",
+f"KA-350 {ka350[7]}"
+]
+BandungPC = [
 f"KA-372 {ka372[7]}",
 f"KA-362 {ka362[7]}",
 f"KA-380 {ka380[7]}",
@@ -1616,7 +1668,7 @@ f"KA-384 {ka384[7]}",
 f"KA-356 {ka356[7]}",
 f"KA-346 {ka346[7]}"
 ]
-Ciroyom = [
+CiroyomCP = [
 f"KA-371 {ka371[8]}",
 f"KA-361 {ka361[8]}",
 f"KA-351 {ka351[8]}",
@@ -1635,7 +1687,9 @@ f"KA-367 {ka367[8]}",
 f"KA-385 {ka385[8]}",
 f"KA-357 {ka357[8]}",
 f"KA-347 {ka347[8]}",
-f"KA-350 {ka350[8]}",
+f"KA-350 {ka350[8]}"
+]
+CiroyomPC = [
 f"KA-372 {ka372[8]}",
 f"KA-362 {ka362[8]}",
 f"KA-380 {ka380[8]}",
@@ -1652,7 +1706,7 @@ f"KA-384 {ka384[8]}",
 f"KA-356 {ka356[8]}",
 f"KA-346 {ka346[8]}"
 ]
-Cimindi = [
+CimindiCP = [
 f"KA-371 {ka371[9]}",
 f"KA-361 {ka361[9]}",
 f"KA-351 {ka351[9]}",
@@ -1671,7 +1725,9 @@ f"KA-367 {ka367[9]}",
 f"KA-385 {ka385[9]}",
 f"KA-357 {ka357[9]}",
 f"KA-347 {ka347[9]}",
-f"KA-350 {ka350[9]}",
+f"KA-350 {ka350[9]}"
+]
+CimindiPC = [
 f"KA-372 {ka372[9]}",
 f"KA-362 {ka362[9]}",
 f"KA-380 {ka380[9]}",
@@ -1688,7 +1744,7 @@ f"KA-384 {ka384[9]}",
 f"KA-356 {ka356[9]}",
 f"KA-346 {ka346[9]}"
 ]
-Cimahi = [
+CimahiCP = [
 f"KA-371 {ka371[10]}",
 f"KA-361 {ka361[10]}",
 f"KA-351 {ka351[10]}",
@@ -1707,7 +1763,9 @@ f"KA-367 {ka367[10]}",
 f"KA-385 {ka385[10]}",
 f"KA-357 {ka357[10]}",
 f"KA-347 {ka347[10]}",
-f"KA-350 {ka350[10]}",
+f"KA-350 {ka350[10]}"
+]
+CimahiPC = [
 f"KA-372 {ka372[10]}",
 f"KA-362 {ka362[10]}",
 f"KA-380 {ka380[10]}",
@@ -1724,7 +1782,7 @@ f"KA-384 {ka384[10]}",
 f"KA-356 {ka356[10]}",
 f"KA-346 {ka346[10]}"
 ]
-Gadobangkong = [
+GadobangkongCP = [
 f"KA-371 {ka371[11]}",
 f"KA-361 {ka361[11]}",
 f"KA-351 {ka351[11]}",
@@ -1743,7 +1801,9 @@ f"KA-367 {ka367[11]}",
 f"KA-385 {ka385[11]}",
 f"KA-357 {ka357[11]}",
 f"KA-347 {ka347[11]}",
-f"KA-350 {ka350[11]}",
+f"KA-350 {ka350[11]}"
+]
+GadobangkongPC = [
 f"KA-372 {ka372[11]}",
 f"KA-362 {ka362[11]}",
 f"KA-380 {ka380[11]}",
@@ -1760,7 +1820,7 @@ f"KA-384 {ka384[11]}",
 f"KA-356 {ka356[11]}",
 f"KA-346 {ka346[11]}"
 ]
-Padalarang = [
+PadalarangCP = [
 f"KA-371 {ka371[12]}",
 f"KA-361 {ka361[12]}",
 f"KA-351 {ka351[12]}",
@@ -1779,7 +1839,9 @@ f"KA-367 {ka367[12]}",
 f"KA-385 {ka385[12]}",
 f"KA-357 {ka357[12]}",
 f"KA-347 {ka347[12]}",
-f"KA-350 {ka350[12]}",
+f"KA-350 {ka350[12]}"
+]
+PadalarangPC = [
 f"KA-372 {ka372[12]}",
 f"KA-362 {ka362[12]}",
 f"KA-380 {ka380[12]}",
@@ -1796,20 +1858,35 @@ f"KA-384 {ka384[12]}",
 f"KA-356 {ka356[12]}",
 f"KA-346 {ka346[12]}"
 ]
-ListStasiunAseli = [
-Cicalengka,
-Haurpugur,
-Rancaekek,
-Cimekar,
-Gedebage,
-Kiaracondong,
-Cikudapateuh,
-Bandung,
-Ciroyom,
-Cimindi,
-Cimahi,
-Gadobangkong,
-Padalarang
+ListStasiunCPAseli = [
+CicalengkaCP,
+HaurpugurCP,
+RancaekekCP,
+CimekarCP,
+GedebageCP,
+KiaracondongCP,
+CikudapateuhCP,
+BandungCP,
+CiroyomCP,
+CimindiCP,
+CimahiCP,
+GadobangkongCP,
+PadalarangCP
+]
+ListStasiunPCAseli = [
+CicalengkaPC,
+HaurpugurPC,
+RancaekekPC,
+CimekarPC,
+GedebagePC,
+KiaracondongPC,
+CikudapateuhPC,
+BandungPC,
+CiroyomPC,
+CimindiPC,
+CimahiPC,
+GadobangkongPC,
+PadalarangPC
 ]
 # Define define subprogram
 def wrap_text(text, width):
@@ -1824,9 +1901,9 @@ def create_receipt(items, total):
     max_price_length = max(len(f"Rp {price:.2f}") for _, price in items)
     line_width = max(max_item_length + max_price_length + 10, len("THANK YOU FOR USING OUR SERVICES. RATE US 5 STARS"))
 
-    receipt.append("╔" + "═" * line_width + "╗")
-    receipt.append(f"║{'RECEIPT':^{line_width}}║")
-    receipt.append("╠" + "═" * line_width + "╣")
+    receipt.append("â•”" + "â•" * line_width + "â•—")
+    receipt.append(f"â•‘{'RECEIPT':^{line_width}}â•‘")
+    receipt.append("â• " + "â•" * line_width + "â•£")
 
     for item, price in items:
         wrapped_item = wrap_text(item, max_item_length)
@@ -1834,19 +1911,20 @@ def create_receipt(items, total):
         for i in range(max(len(wrapped_item), len(wrapped_price))):
             item_text = wrapped_item[i] if i < len(wrapped_item) else ""
             price_text = wrapped_price[i] if i < len(wrapped_price) else ""
-            receipt_line = f"║ {item_text:<{max_item_length}} │ {price_text:<{max_price_length}}{' ' * (line_width - max_item_length - max_price_length - 4)}║"
+            receipt_line = f"â•‘ {item_text:<{max_item_length}} â”‚ {price_text:<{max_price_length}}{' ' * (line_width - max_item_length - max_price_length - 4)}â•‘"
             receipt.append(receipt_line)
 
     receipt.extend([
-        "╠" + "═" * line_width + "╣",
-        f"║{'Total:':<{max_item_length+1}} │ Rp {total:.2f}{' ' * (line_width - max_item_length - max_price_length - 4)}║",
-        "╠" + "═" * line_width + "╣",
-        "╠" + "═" * line_width + "╣",
-        f"║⍟ ⍟ ⍟  THANK YOU FOR USING OUR SERVICES ⍟ ⍟ ⍟{' ' * (line_width - len('⍟ ⍟ ⍟ THANK YOU FOR USING OUR SERVICES ⍟ ⍟ ⍟')-1)}║",
-        "╚" + "═" * line_width + "╝",
+        "â• " + "â•" * line_width + "â•£",
+        f"â•‘{'Total:':<{max_item_length+1}} â”‚ Rp {total:.2f}{' ' * (line_width - max_item_length - max_price_length - 4)}â•‘",
+        "â• " + "â•" * line_width + "â•£",
+        "â• " + "â•" * line_width + "â•£",
+        f"â•‘âŸ âŸ âŸ  THANK YOU FOR USING OUR SERVICES âŸ âŸ âŸ{' ' * (line_width - len('âŸ âŸ âŸ THANK YOU FOR USING OUR SERVICES âŸ âŸ âŸ')-1)}â•‘",
+        "â•š" + "â•" * line_width + "â•",
     ])
 
     return receipt
+
 # Import-import
 import subprocess
 
@@ -1854,18 +1932,17 @@ import subprocess
 print("Type 1 to turn on ")
 print("Type 0 to turn off ")
 Screen = int(input(""))
-Hj = [0 for o in range(10)] # Ini apaan yog?
 subprocess.call('cls', shell=True)
 if Screen == 1 :
-    print("𓆝 𓆟 𓆞 𓆝 𓆟 𓆞 𓆝 𓆟 𓆞 𓆝 𓆟 𓆞 𓆝  Welcome to loka  𓆟 𓆞 𓆝 𓆟 𓆞 𓆝 𓆟 𓆞 𓆝 𓆟 𓆞 𓆝 𓆟 𓆞")
-    print("═════════════════════════════════════════════════════════════════════════")
-    print(" ༝ ˚ ｡⋆ 𓇼 ⋆｡ ˚ ༝ ༝  What do you wish to do here today?  ༝ ༝ ˚ ｡⋆ 𓇼 ⋆｡ ˚ ༝")
+    print("ð“† ð“†Ÿ ð“†ž ð“† ð“†Ÿ ð“†ž ð“† ð“†Ÿ ð“†ž ð“† ð“†Ÿ ð“†ž ð“†  Welcome to loka  ð“†Ÿ ð“†ž ð“† ð“†Ÿ ð“†ž ð“† ð“†Ÿ ð“†ž ð“† ð“†Ÿ ð“†ž ð“† ð“†Ÿ ð“†ž")
+    print("â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•")
+    print(" à¼ Ëš ï½¡â‹† ð“‡¼ â‹†ï½¡ Ëš à¼ à¼  What do you wish to do here today?  à¼ à¼ Ëš ï½¡â‹† ð“‡¼ â‹†ï½¡ Ëš à¼")
     print("Type 1 if you wish to find an apartment to rent")
     print("Type 2 if you wish to find a hotel nearby")
     print("Type 3 if you wish to book train tickets")
     print("Type 4 if you wish to see damri schedules") 
     print("Type 5 if you wish to use shuttle service(s)") # Angka lebih menggoda, visualisasi lebih bagus, lebih bagus bahasa menunya dibedain sikit biar unik
-    print("═════════════════════════════════════════════════════════════════════════")
+    print("â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•")
     selectmenu = input("") 
 
     subprocess.call('cls', shell=True)  
@@ -1996,25 +2073,73 @@ if Screen == 1 :
             
             
     elif (selectmenu == "3"):
-        print("Where would you depart with a train?")
-        for i in range(1, len(ListStasiun) + 1):
-            print(f"{i}. {ListStasiun[i - 1]}")
-        pilihstasiun = int(input("Choose a station's number (1-13): "))
-        subprocess.call('cls', shell=True) 
-        if 1 <= pilihstasiun <= 13:
-            print("You will depart from : ", ListStasiun[pilihstasiun-1])
+        print("Which train route would you like to see?")
+        print("Type 1 for Cicalengka -> Padalarang")
+        print("Type 2 for Padalarang -> Cicalengka")
+        pilihrute = input("")
+        subprocess.call('cls', shell=True)
+        if pilihrute == "1":
+            for i in range(1, len(ListStasiunCP) + 1):
+                if i < len(ListStasiunCP):
+                    print(ListStasiunCP[i - 1], end=" -> ")
+                else:
+                    print(ListStasiunCP[i - 1])
             print("")
-            stasiunsisa = ListStasiun[:pilihstasiun - 1] + ListStasiun[pilihstasiun:]
-            for i in range(len(stasiunsisa)):
-                print(stasiunsisa)
-            print("Where do you wish to go to?")
+            print("")
+            pilihstasiun = int(input("Choose a station's number (1-13): "))
+            subprocess.call('cls', shell=True)
+            print(f"You've chosen the Cicalengka -> Padalarang route and will depart from {ListStasiunCP[pilihstasiun-1]}")
+            if 1 <= pilihstasiun <= 13:
+                stasiunsisa = ListStasiunCP[:pilihstasiun - 1] + ListStasiunCP[pilihstasiun:]
+            for i in range(1, len(stasiunsisa) + 1):
+                print(f"{i}. {stasiunsisa[i - 1]}")
+            print("Where do you wish to go to?")            
             pilihtujuan = int(input(""))
+            subprocess.call('cls', shell=True)
+            print(f"The destination you picked is stasiun {stasiunsisa[pilihtujuan-1]}")
             if 1 <= pilihtujuan <= 12:
-                stasiunsisaaseli = ListStasiunAseli[:pilihstasiun - 1] + ListStasiunAseli[pilihstasiun:]
-                print(stasiunsisaaseli[pilihtujuan-1])
+                stasiunsisaaseli = ListStasiunCPAseli[:pilihstasiun - 1] + ListStasiunCPAseli[pilihstasiun:]
+            print(f"You can board the train from {ListStasiunCP[pilihstasiun-1]} to {stasiunsisa[pilihtujuan-1]} with the time schedule: ")
+            print("")
+            print(stasiunsisaaseli[pilihtujuan-1])
+            print("")
+            print("Which schedule would you like to board? (1-19)")
+            pilihschedule = int(input(""))
+            print("")
+            print(f"You've chosen to board from {ListStasiunCP[pilihstasiun-1]} to {stasiunsisa[pilihtujuan-1]} with {stasiunsisaaseli[pilihtujuan-1][pilihschedule-1]}")
+                
+
+        elif pilihrute == "2":
+            for i in range(1, len(ListStasiunPC) + 1):
+                if i < len(ListStasiunPC):
+                    print(ListStasiunPC[i - 1], end=" -> ")
+                else:
+                    print(ListStasiunPC[i - 1])
+            print("")
+            print("")
+            pilihstasiun = int(input("Choose a station's number (1-13): "))
+            subprocess.call('cls', shell=True)
+            print(f"You've chosen the Cicalengka -> Padalarang route and will depart from {ListStasiunPC[pilihstasiun-1]}")
+            if 1 <= pilihstasiun <= 13:
+                stasiunsisa = ListStasiunPC[:pilihstasiun - 1] + ListStasiunPC[pilihstasiun:] # harus dihilangin data yang sebelum pilihan stasiun
+            for i in range(1, len(stasiunsisa) + 1):
+                print(f"{i}. {stasiunsisa[i - 1]}")
+            print("Where do you wish to go to?")            
+            pilihtujuan = int(input(""))
+            subprocess.call('cls', shell=True)
+            print(f"The destination you picked is stasiun {stasiunsisa[pilihtujuan-1]}")
+            if 1 <= pilihtujuan <= 12:
+                stasiunsisaaseli = ListStasiunPCAseli[:pilihstasiun - 1] + ListStasiunPCAseli[pilihstasiun:]
+            print(f"You can board the train from {ListStasiunPC[pilihstasiun-1]} to {stasiunsisa[pilihtujuan-1]} with the time schedule: ")
+            print("")
+            print(stasiunsisaaseli[pilihtujuan-1])
+            print("")
+            print("Which schedule would you like to board? (1-19)")
+            pilihschedule = int(input(""))
+            print("")
+            print(f"You've chosen to board from {ListStasiunPC[pilihstasiun-1]} to {stasiunsisa[pilihtujuan-1]} with {stasiunsisaaseli[pilihtujuan-1][pilihschedule-1]}")
 
 
-    
     elif (selectmenu == "4"):
         print("Which damri's schedule would you like to see?")
         print("Type tmb for Trans Metro Bandung's List")
@@ -2138,4 +2263,99 @@ if Screen == 1 :
             print("You're using Pasteur Shuttle service from Bandung to Jatinangor")
             for i in range(1, len(tujuanpasteurnangor) + 1):
                 print(f"{i}. {tujuanpasteurnangor[i - 1]}")
-            pilihtujuan = int(input("Choose your destination terminal ... (7 KB left)
+            pilihtujuan = int(input("Choose your destination terminal point number : "))
+            subprocess.call('cls', shell=True)
+            for j in range(1, len(asalpasteurbandung) + 1):
+                print(f"{j}. {asalpasteurbandung[j - 1]}")
+            pilihasal = int(input("Choose your departure terminal point number : "))
+            subprocess.call('cls', shell=True)
+            print("You have chosen to depart from the terminal", asalpasteurbandung[pilihasal-1], "to the terminal", tujuanpasteurnangor[pilihtujuan-1])
+            print("The cost is", hargaasalpasteurbandung[pilihasal-1], "with time estimation of", waktuasalpasteurbandung[pilihasal-1])
+            jumlahseat = int(input("How many seat would you like to purchase? (maximum 5 seats) : "))
+            subprocess.call('cls', shell=True)
+            if 1 <= jumlahseat <= 5:
+                result = jumlahseat * int(hargaasalpasteurbandung[pilihasal-1][:-7])
+                print("You've bought", jumlahseat, "seats and the total cost is", result, "rupiah with time estimation of", waktuasalpasteurbandung[pilihasal-1])
+            else:
+                print("The amount of seats are invalid!")
+        elif tujuan == "b" and brand == "1":
+            print("You're using Arnes Shuttle service from Jatinangor to Bandung")
+            for i in range(1, len(tujuanarnesbandung) + 1):
+                print(f"{i}. {tujuanarnesbandung[i - 1]}")
+            pilihtujuan = int(input("Choose your destination terminal point number : "))
+            subprocess.call('cls', shell=True)
+            for j in range(1, len(asalarnesnangor) + 1):
+                print(f"{j}. {asalarnesnangor[j - 1]}")
+            pilihasal = int(input("Choose your departure terminal point number : "))
+            subprocess.call('cls', shell=True)
+            print("You have chosen to depart from the terminal", asalarnesnangor[pilihasal-1], "to the terminal", tujuanarnesbandung[pilihtujuan-1])
+            print("The cost is", hargatujuanarnesbandung[pilihtujuan-1], "with time estimation of", waktuasalarnesnangor[pilihasal-1])
+            jumlahseat = int(input("How many seat would you like to purchase? (maximum 20 seats) : "))
+            subprocess.call('cls', shell=True)
+            if 1 <= jumlahseat <= 20:
+                result = jumlahseat * int(hargatujuanarnesbandung[pilihtujuan-1][:-7])
+                print("You've bought", jumlahseat, "seats and the total cost is", result, "rupiah with time estimation of", waktuasalarnesnangor[pilihasal-1])
+                abcd = str(jumlahseat) + " seats"
+                items = [
+                            (abcd, result)
+                            ]
+                total = sum(price for _, price in items)
+                receipt = create_receipt(items, total)
+                for line in receipt:
+                    print(line)
+            else:
+                print("The amount of seats are invalid!")
+        elif tujuan == "b" and brand == "2":
+            print("You're using Bhinneka Shuttle service from Jatinangor to Bandung")
+            for i in range(1, len(tujuanbhinnekabandung) + 1):
+                print(f"{i}. {tujuanbhinnekabandung[i - 1]}")
+            pilihtujuan = int(input("Choose your destination terminal point number : "))
+            subprocess.call('cls', shell=True)
+            for j in range(1, len(asalbhinnekanangor) + 1):
+                print(f"{j}. {asalbhinnekanangor[j - 1]}")
+            pilihasal = int(input("Choose your departure terminal point number : "))
+            subprocess.call('cls', shell=True)
+            print("You have chosen to depart from the terminal", asalbhinnekanangor[pilihasal-1], "to the terminal", tujuanbhinnekabandung[pilihtujuan-1])
+            print("The cost is", hargatujuanbhinnekabandung[pilihtujuan-1], "with time estimation of", waktuasalbhinnekanangor[pilihasal-1])
+            jumlahseat = int(input("How many seat would you like to purchase? (maximum 10 seats) : "))
+            subprocess.call('cls', shell=True)
+            if 1 <= jumlahseat <= 10:
+                result = jumlahseat * int(hargatujuanbhinnekabandung[pilihtujuan-1][:-7])
+                print("You've bought", jumlahseat, "seats and the total cost is", result, "rupiah with time estimation of", waktuasalbhinnekanangor[pilihasal-1])
+                abcd = str(jumlahseat) + " seats"
+                items = [
+                            (abcd, result)
+                            ]
+                total = sum(price for _, price in items)
+                receipt = create_receipt(items, total)
+                for line in receipt:
+                    print(line)
+            else:
+                print("The amount of seats are invalid!")
+        elif tujuan == "b" and brand == "3":
+            print("You're using Pasteur Shuttle service from Jatinangor to Bandung")
+            for i in range(1, len(tujuanpasteurbandung) + 1):
+                print(f"{i}. {tujuanpasteurbandung[i - 1]}")
+            pilihtujuan = int(input("Choose your destination terminal point number : "))
+            subprocess.call('cls', shell=True)
+            for j in range(1, len(asalpasteurnangor) + 1):
+                print(f"{j}. {asalpasteurnangor[j - 1]}")
+            pilihasal = int(input("Choose your departure terminal point number : "))
+            subprocess.call('cls', shell=True)
+            print("You have chosen to depart from the terminal", asalpasteurnangor[pilihasal-1], "to the terminal", tujuanpasteurbandung[pilihtujuan-1])
+            print("The cost is", hargatujuanpasteurbandung[pilihtujuan-1], "with time estimation of", waktuasalpasteurnangor[pilihasal-1])
+            jumlahseat = int(input("How many seat would you like to purchase? (maximum 5 seats) : "))
+            subprocess.call('cls', shell=True)
+            if 1 <= jumlahseat <= 5:
+                result = jumlahseat * int(hargatujuanpasteurbandung[pilihtujuan-1][:-7])
+                print("You've bought", jumlahseat, "seats and the total cost is", result, "rupiah with time estimation of", waktuasalpasteurnangor[pilihasal-1])
+                abcd = str(jumlahseat) + " seats"
+                items = [
+                            (abcd, result)
+                            ]
+                total = sum(price for _, price in items)
+                receipt = create_receipt(items, total)
+                for line in receipt:
+                    print(line)
+            else:
+                print("The amount of seats are invalid!")
